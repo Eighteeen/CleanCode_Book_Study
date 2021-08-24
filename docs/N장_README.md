@@ -26,4 +26,4 @@
 
 ## 느낀점
 
-* [member](./member_README.md)
+- [member](./member_README.md)
