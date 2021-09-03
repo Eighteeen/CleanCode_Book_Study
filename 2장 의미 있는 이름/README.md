@@ -14,7 +14,15 @@
 
 - _( p. 34 )_ `JobQueue` : 개별적으로 실행되는 스크립트 블럭을 하나의 Job이라고 하고 이러한 Job들을 적재하는 큐를 말한다. 그냥 한국말로 하면 이해가 쉽다. `작업 대기열`.
 
+
+## ✨ 이슈 리스트
+- ['의미 있게 구분하라' - 연속된 숫자, 불용어](https://github.com/Eighteeen/CleanCode_Book_Study/issues/1)
+
+- ['검색하기 쉬운 이름을 사용하라' - 이름 길이는 크기와 비례?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/2)
+
+
 ## 📝 정리
+
 
 ---
 
