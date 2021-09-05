@@ -75,7 +75,7 @@
 ### 10. 메서드 이름
 * 메서드 이름은 동사나 동사구가 적합하다.
 * 생성자를 오버라이딩 할 때는 매개변수 이름을 설명하는 이름을 사용한다
-	* Complex fulcrumPoint = Complex.FromRealNumber(23.0);
+	* Complex fulcrumPoint = Complex.fromRealNumber(23.0);
 
 ### 11. 기발한 이름은 피하라
 * 피하라고
