@@ -1,5 +1,13 @@
 # 2장 의미 있는 이름
 
+## ✨ 발생시킨 이슈 리스트
+- [[의미 있게 구분하라] - 연속된 숫자, 불용어](https://github.com/Eighteeen/CleanCode_Book_Study/issues/1)
+
+## 💡 해결한 이슈 리스트
+- [[의미 있게 구분하라] - 연속된 숫자, 불용어](https://github.com/Eighteeen/CleanCode_Book_Study/issues/1)
+
+- [[검색하기 쉬운 이름을 사용하라] - 이름 길이는 크기와 비례?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/2)
+
 ## 🎞 회고
 
 ### 9월 5일
