@@ -1,7 +1,4 @@
-public static String testableHTML(
-  PageData pageData,
-  boolean includeSuiteSetup
-) throws Exception {
+public static String testableHTML(PageData pageData, boolean includeSuiteSetup) throws Exception {
   WikiPage wikiPage = pageData.getWikiPage();
   StringBuffer buffer = new StringBuffer();
   if (pageData.hasAttribute("Test")) {
