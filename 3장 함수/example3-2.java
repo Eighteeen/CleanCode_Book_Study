@@ -1,7 +1,7 @@
 public static String renderPageWithSetupsAndTeardowns(PageData pageData, boolean isSuite) throws Exception {
   boolean isTestPage = pageData.hasAttribute("Test");
   if (isTestPage) {
-    WikiPage tesetPage = pageData.getWikiPage();
+    WikiPage testPage = pageData.getWikiPage();
     StringBuffer newPageContent = new StringBuffer();
     includeSuiteSetup(testPage, newPageContent, isSuite);
     newPageContent.append(pageData.getContent);
