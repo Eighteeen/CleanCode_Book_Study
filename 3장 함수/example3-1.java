@@ -42,7 +42,7 @@ public static String testableHTML(
       WikiPage suiteTeardown =
         PageCrawlerImpl.getInheritedPage(
           SuiteResponder.SUITE_TEARDOWN_NAME,
-         wikiPage
+          wikiPage
         );
       if (suiteTeardown != null) {
         WikiPagePath pagePath = suiteTeardown.getPageCrawler().getFullPath(suiteTeardown);
