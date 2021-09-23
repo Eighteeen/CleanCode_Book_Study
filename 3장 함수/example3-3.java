@@ -4,11 +4,11 @@ public static String renderPageWithSetupsAndTeardowns(PageData pageData, boolean
 	return pageData.getHtml();
 }
 
-public static boolean isTestPage(PageData pageData) {
+private static boolean isTestPage(PageData pageData) {
   return pageData.hasAttribute("Test");
 }
 
-public static void includeSetupAndTeardownPages(PageData pageData, boolean isSuite) {
+private static void includeSetupAndTeardownPages(PageData pageData, boolean isSuite) {
   WikiPage testPage = pageData.getWikiPage();
   StringBuffer newPageContent = new StringBuffer();
   includeSuiteSetup(testPage, newPageContent, isSuite);
@@ -17,7 +17,7 @@ public static void includeSetupAndTeardownPages(PageData pageData, boolean isSui
   pageData.setContent(newPageContent.toString());
 }
 
-public static void includeSuiteSetup(Wikipage testPage, StringBuffer newPageContent, boolean isSuite) {
+private static void includeSuiteSetup(Wikipage testPage, StringBuffer newPageContent, boolean isSuite) {
   if (isSuite) {
     WikiPage suiteSetup = PageCrawlerImpl.getInheritedPage(
       SuiteResponder.SUITE_SETUP_NAME, testPage
@@ -41,7 +41,7 @@ public static void includeSuiteSetup(Wikipage testPage, StringBuffer newPageCont
   }
 }
 
-public static void includeTeardownPages(Wikipage testPage, StringBuffer newPageContent, boolean isSuite) {
+private static void includeTeardownPages(Wikipage testPage, StringBuffer newPageContent, boolean isSuite) {
   WikiPage teardown = PageCrawlerImpl.getInheritedPage("TearDown", testPage);
   if (teardown != null) {
     WikiPagePath tearDownPath = testPage.getPageCrawler().getFullPath(tearedown);

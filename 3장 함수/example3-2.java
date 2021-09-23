@@ -11,7 +11,7 @@ public static String renderPageWithSetupsAndTeardowns(PageData pageData, boolean
   return pageData.getHtml();
 }
 
-public static void includeSuiteSetup(Wikipage testPage, StringBuffer newPageContent, boolean isSuite) {
+private static void includeSuiteSetup(Wikipage testPage, StringBuffer newPageContent, boolean isSuite) {
   if (isSuite) {
     WikiPage suiteSetup = PageCrawlerImpl.getInheritedPage(
       SuiteResponder.SUITE_SETUP_NAME, testPage
@@ -35,7 +35,7 @@ public static void includeSuiteSetup(Wikipage testPage, StringBuffer newPageCont
   }
 }
 
-public static void includeTeardownPages(Wikipage testPage, StringBuffer newPageContent, boolean isSuite) {
+private static void includeTeardownPages(Wikipage testPage, StringBuffer newPageContent, boolean isSuite) {
   WikiPage teardown = PageCrawlerImpl.getInheritedPage("TearDown", testPage);
   if (teardown != null) {
     WikiPagePath tearDownPath = testPage.getPageCrawler().getFullPath(tearedown);
