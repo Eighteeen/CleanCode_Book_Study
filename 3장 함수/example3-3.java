@@ -1,7 +1,7 @@
 public static String renderPageWithSetupsAndTeardowns(PageData pageData, boolean isSuite) throws Exception {
-	if (isTestPage(pageData))
-		includeSetupAndTeardownPages(pageData, isSuite);
-	return pageData.getHtml();
+  if (isTestPage(pageData))
+    includeSetupAndTeardownPages(pageData, isSuite);
+  return pageData.getHtml();
 }
 
 private static boolean isTestPage(PageData pageData) {
