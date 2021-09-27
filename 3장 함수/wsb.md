@@ -1,9 +1,9 @@
 # 3장 함수
 
 ## 💡 해결한 이슈 리스트
-1. [[Switch 문] - 추상팩토리에서 파생 클래스, 다형성 등을 사용하면 해결?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/3)
-2. [[함수] - 3-2 예제가 3-1 코드와 정말 같은 동작을 하는지?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/4)
-3. [[함수] - '추상화 수준' 이라는 개념을 좀 더 명확하게 설명하자면 어떻게 설명해야 할까?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/5)
+- [[Switch 문] - 추상팩토리에서 파생 클래스, 다형성 등을 사용하면 해결?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/3)
+- [[함수] - 3-2 예제가 3-1 코드와 정말 같은 동작을 하는지?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/4)
+- [[함수] - '추상화 수준' 이라는 개념을 좀 더 명확하게 설명하자면 어떻게 설명해야 할까?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/5)
 
 ## 🎞 회고  
 
