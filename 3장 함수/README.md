@@ -3,6 +3,7 @@
 ## 🔍 리딩 도움
 - _( p. 47 )_ `SRP(The Single Responsibility Principle)` : 하나의 클래스를 수정해야 한다면, 그 이유는 오직 한가지여야만 한다. (p.19 참조)
 - _( p. 47 )_ `OCP(The Open Closed Principle)` : 클래스는 확장에 열려 있어야 하며 변경에 닫혀 있어야 한다. (p.19 참조)
+- _( p. 55 )_ 시간적 결합(temporal coupling) : `메서드 A는 언제나 반드시 메서드 B보다 먼저 호출해야 한다.`와 같이 시간 순서에 따른 결합도를 말한다.
 
 
 ## ✨ 이슈 리스트
