@@ -10,6 +10,8 @@
 - [[Switch 문] - 추상팩토리에서 파생 클래스, 다형성 등을 사용하면 해결?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/3)
 - [[함수] - 3-2 예제가 3-1 코드와 정말 같은 동작을 하는지?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/4)
 - [[함수] - '추상화 수준' 이라는 개념을 좀 더 명확하게 설명하자면 어떻게 설명해야 할까?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/5)
+- [[부수효과를 일으키지 마라!] - 시간적 결합과 순서 종속성에 대한 정확한 뜻](https://github.com/Eighteeen/CleanCode_Book_Study/issues/6)
+- [[명령과 조회를 분리하라!] - 이 원칙을 우리 백준 풀이 코드에 적용한다면?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/7)
 
 ## 📝 정리
 
