@@ -12,6 +12,7 @@
 - [[함수] - '추상화 수준' 이라는 개념을 좀 더 명확하게 설명하자면 어떻게 설명해야 할까?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/5)
 - [[부수효과를 일으키지 마라!] - 시간적 결합과 순서 종속성에 대한 정확한 뜻](https://github.com/Eighteeen/CleanCode_Book_Study/issues/6)
 - [[명령과 조회를 분리하라!] - 이 원칙을 우리 백준 풀이 코드에 적용한다면?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/7)
+- [[결론] - '재귀라는 기교'의 정확한 뜻](https://github.com/Eighteeen/CleanCode_Book_Study/issues/8)
 
 ## 📝 정리
 
