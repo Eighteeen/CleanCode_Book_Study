@@ -12,4 +12,6 @@
 
 ## 🎞 회고
 
-- [member](./member_README.md)
+- [진홍](./kjh.md)
+- [승빈](./wsb.md)
+- [수경](./hsk.md)
