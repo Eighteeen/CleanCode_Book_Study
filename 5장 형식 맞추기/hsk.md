@@ -1,5 +1,10 @@
 # 5장 형식 맞추기
 
+## ✨ 발생시킨 이슈 리스트
+
+- [[가로 형식 맞추기 - 가짜 범위] - 빈 while문, 빈 for문에서의 세미콜론](https://github.com/Eighteeen/CleanCode_Book_Study/issues/9)
+
+
 ## 🎞 회고
 
 ### 11월 14일
