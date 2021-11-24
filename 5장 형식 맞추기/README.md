@@ -1,5 +1,11 @@
 # 5장 형식 맞추기
 
+## ✨ 이슈 리스트
+
+- [[가로 형식 맞추기 - 가짜 범위] - 빈 while문, 빈 for문에서의 세미콜론](https://github.com/Eighteeen/CleanCode_Book_Study/issues/9)
+
+- [[가로 형식 맞추기] - 짧은 if문에도 { }를 써야 하는 이유?](https://github.com/Eighteeen/CleanCode_Book_Study/issues/10)
+
 ## 📝 정리
 
 ### 정리 자료
